@@ -9,7 +9,7 @@ import ReactMarkdown from "react-markdown";
 import TaskQueueDetails from "@/app/taskQueueDetails";
 import InscriptionPipelineDetails from "@/app/InscriptionPipelineDetails";
 import { Mail, Github, Linkedin, FileText } from "lucide-react";
-import { SiPython, SiJavascript, SiCplusplus, SiGo, SiKotlin, SiReact, SiNodedotjs, SiTensorflow, SiOpencv, SiFlask, SiGithub, SiVisualstudiocode, SiApachekafka, SiApachehadoop } from "react-icons/si";
+import { SiPython, SiJavascript, SiCplusplus, SiGo, SiReact, SiNodedotjs, SiTensorflow, SiOpencv, SiFlask, SiGithub, SiApachekafka, SiApachehadoop } from "react-icons/si";
 import SparkCursor from "@/app/SparkCursor";
 
  // adjust the path as needed
