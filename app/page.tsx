@@ -58,7 +58,8 @@ const certificates = [
 
 
 export default function Portfolio() {
-  const [expandedProject, setExpandedProject] = useState(null);
+  const [expandedProject, setExpandedProject] = useState<number | null>(null);
+
   return (
 
     <>
@@ -367,7 +368,6 @@ export default function Portfolio() {
               <div key={index} className="bg-slate-800 p-4 rounded-lg shadow-md hover:shadow-lg transition">
                 <h3 className="text-xl font-semibold text-teal-200">{cert.title}</h3>
                 <p className="text-sm text-gray-300">{cert.issuer}</p>
-                <p className="text-sm text-gray-400 mb-2">{cert.date}</p>
                 {cert.link && (
                   <a
                     href={cert.link}
